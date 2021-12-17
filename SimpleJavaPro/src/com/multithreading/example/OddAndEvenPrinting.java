@@ -9,6 +9,7 @@ public class OddAndEvenPrinting{
 		
 		public EvenNoGen(int m, OddAndEvenPrinting p){
 			this.maxNo=m;
+
 			this.printer=p;
 		}
 
