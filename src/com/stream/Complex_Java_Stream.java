@@ -84,7 +84,8 @@ public class Complex_Java_Stream {
 
     private static void method1(){
         System.out.println("Query 1 : How many male and female employees are in Organization");
-        Map<String,Long> genderMap = employeeList.stream().collect(Collectors.groupingBy(Employee::getGender, Collectors.counting()));
+        Map<String,Long> genderMap = employeeList.stream().collect(
+                Collectors.groupingBy(Employee::getGender, Collectors.counting()));
         System.out.println(genderMap);
     }
 

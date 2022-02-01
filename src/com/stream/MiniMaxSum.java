@@ -1,4 +1,4 @@
-package com.stream.hackerrank.week1;
+package com.stream;
 
 import java.util.*;
 import java.util.stream.Collectors;
